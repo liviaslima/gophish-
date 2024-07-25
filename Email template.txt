@@ -1,0 +1,14 @@
+envelope sender: admin0@365.com
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Ol&aacute; {{.FirstName}},</p>
+
+<p>Sua senha ir&aacute; expirar em breve, clique no link abaixo para alter&aacute;-la.</p>
+
+<p><a href="{{.URL}}">Troque sua senha</a></p>
+{{.Tracker}}</body>
+</html>
